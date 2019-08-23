@@ -41,8 +41,8 @@ public class GameManager : MonoBehaviour
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
             _levels[1].SetActive(false);
-            _levels[3].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[3].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[14].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[14].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
                 
             });
@@ -70,8 +70,8 @@ public class GameManager : MonoBehaviour
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
             _levels[2].SetActive(false);
-            _levels[5].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[5].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[10].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[10].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
 
             });
@@ -84,8 +84,8 @@ public class GameManager : MonoBehaviour
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
             _levels[2].SetActive(false);
-            _levels[7].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[7].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[13].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[13].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
 
             });
@@ -198,10 +198,10 @@ public class GameManager : MonoBehaviour
     //Lake1
     public void Ok()
     {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[7].GetComponent<CanvasGroup>(), 0f, 2f);
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[8].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() =>
         {
-            _levels[7].SetActive(false);
+            _levels[8].SetActive(false);
             _levels[2].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() =>
@@ -213,10 +213,10 @@ public class GameManager : MonoBehaviour
     //Lake1
     public void R1()
     {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[7].GetComponent<CanvasGroup>(), 0f, 2f);
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[6].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() =>
         {
-            _levels[7].SetActive(false);
+            _levels[6].SetActive(false);
             _levels[9].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[9].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() =>
@@ -243,11 +243,11 @@ public class GameManager : MonoBehaviour
     //Lake2
     public void Boat()
     {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[5].GetComponent<CanvasGroup>(), 0f, 2f);
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[10].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
-            _levels[5].SetActive(false);
-            _levels[6].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[6].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[10].SetActive(false);
+            _levels[11].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[11].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
 
             });
@@ -256,11 +256,11 @@ public class GameManager : MonoBehaviour
     //Lake2
     public void Swim()
     {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[5].GetComponent<CanvasGroup>(), 0f, 2f);
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[10].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
-            _levels[5].SetActive(false);
-            _levels[7].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[7].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[10].SetActive(false);
+            _levels[12].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[12].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
 
             });
@@ -269,9 +269,9 @@ public class GameManager : MonoBehaviour
     //Lake death
     public void CarryOn()
     {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[6].GetComponent<CanvasGroup>(), 0f, 2f);
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[11].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
-            _levels[6].SetActive(false);
+            _levels[11].SetActive(false);
             _levels[2].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
@@ -282,9 +282,9 @@ public class GameManager : MonoBehaviour
     //Lake death
     public void GoOn()
     {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[7].GetComponent<CanvasGroup>(), 0f, 2f);
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[12].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
-            _levels[7].SetActive(false);
+            _levels[12].SetActive(false);
             _levels[2].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {

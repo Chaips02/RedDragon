@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6775286202118879412}
   - component: {fileID: 3400919802957719974}
   m_Layer: 5
-  m_Name: Thanks
+  m_Name: Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Thanks
+        m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -207,8 +207,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wow!Great job! Who would have thought you could figure this out. To sset
-    you free you only have to keep pplaying dead while you sing a song.
+  m_Text: As you brutaly moved the branches have wrapped tighter on you until you've
+    suffocaed,
 --- !u!1 &6338830314468293735
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks, see you soon!
+  m_Text: Continue
 --- !u!1 &8321599544971433086
 GameObject:
   m_ObjectHideFlags: 0
