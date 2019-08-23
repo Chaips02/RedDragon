@@ -292,6 +292,57 @@ public class GameManager : MonoBehaviour
             });
         });
     }
-   
+    //Lake3
+    public void Walk()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[13].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[13].SetActive(false);
+            _levels[14].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[14].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //Lake3
+    public void Home()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[14].GetComponent<CanvasGroup>(), 0f, 2f);
+    fadeOut.setOnComplete(() => {
+            _levels[14].SetActive(false);
+    _levels[2].SetActive(true);
+    LTDescr fadeIn = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 1f, 2f);
+    fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }//Lake3
+    public void Stop()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[13].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[13].SetActive(false);
+            _levels[15].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[15].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }//Lake3
+    public void HomeRitire()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[16].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[16].SetActive(false);
+            _levels[2].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+
+
 
 }
