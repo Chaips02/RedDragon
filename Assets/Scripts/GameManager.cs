@@ -6,7 +6,20 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private GameObject[] _levels;
-
+   
+    //Introduction Video
+    public void GoAhead1()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[24].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[24].SetActive(false);
+            _levels[0].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+                // Añadir aquí instrucciones que queremos que se ejecuten una vez se ha terminado de hacer el fade in (si las hay)
+            });
+        });
+    }
     //Start Scene
     public void GoAhead()
     {
@@ -41,8 +54,8 @@ public class GameManager : MonoBehaviour
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
             _levels[1].SetActive(false);
-            _levels[14].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[14].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[23].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
                 
             });
@@ -470,6 +483,516 @@ public class GameManager : MonoBehaviour
             _levels[22].SetActive(false);
             _levels[1].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void ExploreSourrandings()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[23].SetActive(false);
+            _levels[25].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[25].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void YesMS()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[25].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[25].SetActive(false);
+            _levels[26].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[26].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void OfCourse()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[2].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[26].SetActive(false);
+            _levels[27].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[27].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+
+    //MountainSourrandings
+    public void R1MS()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[27].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[27].SetActive(false);
+            _levels[28].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[28].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+
+    //MountainSourrandings
+    public void R2MS()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[27].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[27].SetActive(false);
+            _levels[29].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[29].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+
+    //MountainSourrandings
+    public void NoMS()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[25].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[25].SetActive(false);
+            _levels[30].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[30].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void SorryNo()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[26].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[26].SetActive(false);
+            _levels[30].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[30].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void Cave()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[28].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[28].SetActive(false);
+            _levels[30].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[30].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void Cave2()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[29].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[29].SetActive(false);
+            _levels[30].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[30].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void Lectern()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[30].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[30].SetActive(false);
+            _levels[31].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[31].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainSourrandings
+    public void GoMountain()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[31].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[31].SetActive(false);
+            _levels[23].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void GoTop()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[23].SetActive(false);
+            _levels[32].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[32].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Stairs()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[32].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[32].SetActive(false);
+            _levels[33].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[33].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void GoBack()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[33].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[33].SetActive(false);
+            _levels[32].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[32].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Jump()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[33].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[33].SetActive(false);
+            _levels[34].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[34].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void StairsDeath()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[34].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[34].SetActive(false);
+            _levels[32].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[32].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Climbing()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[32].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[32].SetActive(false);
+            _levels[35].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[35].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void BackOff()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[35].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[35].SetActive(false);
+            _levels[32].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[32].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void KeepClimbing()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[35].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[35].SetActive(false);
+            _levels[36].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[36].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void KeepExploring()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[36].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[36].SetActive(false);
+            _levels[37].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[37].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+//MountainTop
+    public void GoSee()
+{
+    LTDescr fadeOut = LeanTween.alphaCanvas(_levels[36].GetComponent<CanvasGroup>(), 0f, 2f);
+    fadeOut.setOnComplete(() => {
+        _levels[36].SetActive(false);
+        _levels[39].SetActive(true);
+        LTDescr fadeIn = LeanTween.alphaCanvas(_levels[39].GetComponent<CanvasGroup>(), 1f, 2f);
+        fadeIn.setOnComplete(() => {
+
+        });
+    });
+}
+//MountainTop
+public void RunAway()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[37].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[37].SetActive(false);
+            _levels[39].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[39].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Chat()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[37].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[37].SetActive(false);
+            _levels[38].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[38].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void DoIt()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[38].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[38].SetActive(false);
+            _levels[23].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Ignore()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[38].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[38].SetActive(false);
+            _levels[39].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[39].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void GetIn()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[39].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[39].SetActive(false);
+            _levels[40].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[40].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void GoDown()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[40].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[40].SetActive(false);
+            _levels[41].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void StaurnPicture()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[41].SetActive(false);
+            _levels[42].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[42].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void InscriptionInWall()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[41].SetActive(false);
+            _levels[43].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[43].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void GreekMithologyBook()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[41].SetActive(false);
+            _levels[44].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[44].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Hourglass()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[41].SetActive(false);
+            _levels[45].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[45].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Chest()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[41].SetActive(false);
+            _levels[46].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[46].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Next1()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[43].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[43].SetActive(false);
+            _levels[41].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Next2()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[43].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[43].SetActive(false);
+            _levels[41].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Next3()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[44].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[44].SetActive(false);
+            _levels[41].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void Next4()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[45].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[45].SetActive(false);
+            _levels[41].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void CheckChamber()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[46].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[46].SetActive(false);
+            _levels[41].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void R1MT()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[46].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[46].SetActive(false);
+            _levels[47].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[47].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
+    //MountainTop
+    public void R2MT()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[46].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[46].SetActive(false);
+            _levels[48].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[48].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
 
             });
