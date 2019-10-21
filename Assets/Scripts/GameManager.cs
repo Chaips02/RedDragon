@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
             fadeOut.setOnComplete(() => {
                 _levels[0].SetActive(false);
                 _levels[1].SetActive(true);
-                LTDescr fadeIn = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 1f, 2f);
+             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 1f, 2f);
                 fadeIn.setOnComplete(() => {
                     // Añadir aquí instrucciones que queremos que se ejecuten una vez se ha terminado de hacer el fade in (si las hay)
                 });
@@ -551,7 +551,18 @@ public class GameManager : MonoBehaviour
         });
     }
 
+    public void MountainL1janopotsanarlake()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[56].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[56].SetActive(false);
+            _levels[23].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
 
+            });
+        });
+    }
     //Lake3
     public void ContinueAdventure()
     {
@@ -573,8 +584,8 @@ public class GameManager : MonoBehaviour
             LTDescr fadeOut = LeanTween.alphaCanvas(_levels[22].GetComponent<CanvasGroup>(), 0f, 2f);
             fadeOut.setOnComplete(() => {
                 _levels[22].SetActive(false);
-                _levels[1].SetActive(true);
-                LTDescr fadeIn = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 1f, 2f);
+                _levels[56].SetActive(true);
+                LTDescr fadeIn = LeanTween.alphaCanvas(_levels[56].GetComponent<CanvasGroup>(), 1f, 2f);
                 fadeIn.setOnComplete(() => {
                     Debug.Log("Go to the mountain");
 
@@ -1043,7 +1054,7 @@ public void RunAway()
     {
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[43].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
-            _levels[43].SetActive(false);
+            _levels[42].SetActive(false);
             _levels[41].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[41].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
