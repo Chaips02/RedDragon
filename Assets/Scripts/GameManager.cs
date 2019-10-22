@@ -46,12 +46,28 @@ public class GameManager : MonoBehaviour
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[57].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
             _levels[57].SetActive(false);
-            _levels[0].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[59].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[59].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
                 
                 // Añadir aquí instrucciones que queremos que se ejecuten una vez se ha terminado de hacer el fade in (si las hay)
                 
+            });
+        });
+    }
+
+    //Intro3
+    public void GoAhead4()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[59].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[59].SetActive(false);
+            _levels[0].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+                // Añadir aquí instrucciones que queremos que se ejecuten una vez se ha terminado de hacer el fade in (si las hay)
+
             });
         });
     }
