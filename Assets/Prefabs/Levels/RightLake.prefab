@@ -67,7 +67,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -115,8 +115,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 360.00128, y: -318.2537}
-  m_SizeDelta: {x: 217.3, y: 69.9}
+  m_AnchoredPosition: {x: 360.00128, y: -368}
+  m_SizeDelta: {x: 281.5, y: 112.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2383182280805162028
 CanvasRenderer:
@@ -275,7 +275,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -450,8 +450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -488, y: -318.25}
-  m_SizeDelta: {x: 217.3, y: 69.9}
+  m_AnchoredPosition: {x: -488, y: -368}
+  m_SizeDelta: {x: 281.5, y: 112.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3564947555875562263
 CanvasRenderer:
@@ -577,8 +577,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.2, y: 364}
-  m_SizeDelta: {x: 1781.6, y: 256}
+  m_AnchoredPosition: {x: 17.5, y: 159.5}
+  m_SizeDelta: {x: 1553.2, y: 353.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4706581658589201794
 CanvasRenderer:
@@ -615,14 +615,14 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You've chosen the the path that it is found into the statues forest. At
-    this point you can choose what you want to do.
+  m_Text: You've chosen the path found in the insides of the Statues' Forest. Given
+    this situation you can lean on to either of the two given options.
 --- !u!1 &8888110369873392279
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: cc6345088ec76d74c897ff71b5ee0353, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a34ba1fc748ac7c46ba4eb3d1c8fa7af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

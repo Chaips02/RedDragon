@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2357575224083586617}
   - component: {fileID: 3197549613594869070}
   m_Layer: 5
-  m_Name: GoAhead1
+  m_Name: GoAhead2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: -368}
-  m_SizeDelta: {x: 217.3, y: 69.9}
+  m_AnchoredPosition: {x: 593.7, y: -529.9}
+  m_SizeDelta: {x: 287.9, y: 114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8270722889896736110
 CanvasRenderer:
@@ -115,7 +115,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2357575224083586617}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: GoAhead2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &4069605932906464872
@@ -185,11 +196,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -224,15 +235,15 @@ RectTransform:
   m_GameObject: {fileID: 4178234038477244044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5744785, y: 0.5744785, z: 0.5744785}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1823156641419485165}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.27417, y: -70.313354}
-  m_SizeDelta: {x: 1553.2, y: 353.85}
+  m_AnchoredPosition: {x: 0.6, y: -69.3}
+  m_SizeDelta: {x: 1474.2, y: 599.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4088000425001949831
 CanvasRenderer:
@@ -275,11 +286,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'START
-
-    Welcome to RedDragon mission. It''s now your turn to help me out. Right now we
-    have to find the Grimory, the magic book that has the enchamntment to set the
-    dragons free. '
+  m_Text: "In the olden years, wizards and dragons were rivals, this enmity ended
+    up with the captivity of the last ones under a magic spell that would take away
+    their freedom away, they became the prisoners of a volcano later known as The
+    Red Dragon Volcano.\r\nHeron, a guardian, fell in love with a captive named Lilith
+    and created a hole on the enchanted dome that covered the place so she could escape
+    with him. The dragon did the metamorphosis and accomplished a human appearance
+    to go unnoticed. After that, the couple went to a village out of harm\u2019s way
+    where they were meant to stay for the eternity.\r\nWhat no one expected was that
+    Lilith would meet her true love there, a human called Bill. \r\n"
 --- !u!1 &4419169338218244073
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,8 +329,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 0.000034332, y: -184}
+  m_SizeDelta: {x: 1987.8, y: 1196.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8841853144791111302
 CanvasRenderer:
@@ -345,7 +360,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 07c848e28968ea94a836ec5603cdcbcf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac5d4ba2976d90e40b32af583dd0d9c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -381,15 +396,15 @@ RectTransform:
   m_GameObject: {fileID: 8426950055789640226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.035889905, y: 0.035889905, z: 0.035889905}
+  m_LocalScale: {x: 0.1051895, y: 0.1051895, z: 0.035889905}
   m_Children: []
   m_Father: {fileID: 1823156641419485165}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.011108, y: -105.08658}
-  m_SizeDelta: {x: 13213, y: 3010.1}
+  m_AnchoredPosition: {x: 0, y: -69.3}
+  m_SizeDelta: {x: 13311, y: 6178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1096111125760122156
 CanvasRenderer:
@@ -452,7 +467,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8727107564544486420}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0000026, y: 1.0000026, z: 1.0000026}
   m_Children:

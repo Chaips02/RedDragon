@@ -67,7 +67,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go Ahead
+  m_Text: START
 --- !u!1 &562627061
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,8 +113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.4, y: 228}
-  m_SizeDelta: {x: 1781.6, y: 256}
+  m_AnchoredPosition: {x: 17.8, y: 159.5}
+  m_SizeDelta: {x: 1553.2, y: 353.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &562627064
 CanvasRenderer:
@@ -151,13 +151,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: 'START
+
+    Welcome to the RedDragon mission. It''s now your turn to help out. Our main goal
+    is finding the Grimoire, the magic book that has the enchamntment to set the dragons
+    free. I''m not sure where is exactly found, it might be in my lake house as well
+    as in my mountain refuge. So choose wisely and be safe.'
 --- !u!1 &954715980
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,7 +179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &954715981
 RectTransform:
   m_ObjectHideFlags: 0
@@ -206,7 +211,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954715980}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -320,8 +325,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -451, y: -368}
-  m_SizeDelta: {x: 217.3, y: 69.9}
+  m_AnchoredPosition: {x: 614, y: -369}
+  m_SizeDelta: {x: 287.9, y: 114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1830692155
 CanvasRenderer:
@@ -440,15 +445,15 @@ RectTransform:
   m_GameObject: {fileID: 8631511818137206579}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3083308, y: 0.3083308, z: 0.3083308}
   m_Children: []
   m_Father: {fileID: 954715981}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -790.9, y: 334.9}
-  m_SizeDelta: {x: -1637.1, y: -959.7}
+  m_AnchoredPosition: {x: 0.000061035156, y: 198.65}
+  m_SizeDelta: {x: 3540, y: 321.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3331637277654513248
 CanvasRenderer:

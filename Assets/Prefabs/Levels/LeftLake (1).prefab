@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8672633609772794234}
   - component: {fileID: 140060194523168174}
   m_Layer: 5
-  m_Name: Stay
+  m_Name: Climbing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Stay
+        m_MethodName: Climbing
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -207,8 +207,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: As you started walking into the forest you hear some creepy noises. Those
-    are unknown to you, what are you going to do?
+  m_Text: 'You have to find a way to reach the top. How do you want to do it? '
 --- !u!1 &2221147226665017299
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stay here
+  m_Text: Climbing
 --- !u!1 &4210986174429663239
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +300,7 @@ GameObject:
   - component: {fileID: 6056221748273324619}
   - component: {fileID: 4729842606304440552}
   m_Layer: 5
-  m_Name: Leave
+  m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +404,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Leave
+        m_MethodName: Stairs
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -495,7 +494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Leave now
+  m_Text: Using the stairs
 --- !u!1 &8112534777792388116
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +667,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8797860873152373840}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999972, y: 0.9999972, z: 0.9999972}
   m_Children:

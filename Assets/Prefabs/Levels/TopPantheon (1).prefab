@@ -152,7 +152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get in
+  m_Text: Go down
 --- !u!1 &1638411821673380161
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638411821673380161}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999972, y: 0.9999972, z: 0.9999972}
   m_Children:
@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 7644671439718078040}
   - component: {fileID: 8551669288853900842}
   m_Layer: 5
-  m_Name: GetIn
+  m_Name: GoDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: KeepClimbing
+        m_MethodName: GoDown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -486,5 +486,5 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Apparenytly you've bump into a enormous old-fashoned pantheon. You have
-    no other option than explore what could be inside.
+  m_Text: "As you hear a very creeping no\xA1ce coming from the tomb. A stairway has
+    been reveald and definetly you are going down to see what might be hidden inside."

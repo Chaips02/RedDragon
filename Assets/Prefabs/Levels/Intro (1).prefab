@@ -27,14 +27,14 @@ RectTransform:
   m_GameObject: {fileID: 1968895521483454625}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.32499838, y: 0.32499838, z: 0.32499838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1679229334163543727}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.617462, y: -130.18434}
+  m_AnchoredPosition: {x: 0.6, y: -69.3}
   m_SizeDelta: {x: 1474.2, y: 599.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8053319921598004069
@@ -78,15 +78,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "In the olden years, wizards and dragons were rivals, this enmity ended
-    up with the captivity of the last ones under a magic spell that would take away
-    their freedom, they became the prisoners of a volcano known afterwards as The
-    Red Dragon Volcano.\r\nHeron, a guardian, fell in love with a captive named Lilith
-    and created a hole on the enchanted dome that covered the place so she could escape
-    with him. The dragon did the metamorphosis and accomplished a human appearance
-    to go unnoticed. After that, the couple went to a village out of harm\u2019s way
-    where they were meant to stay for the eternity.\r\nWhat anyone expected was that
-    Lilith would meet there her true love, a human called Bill. \r\n"
+  m_Text: "Their romance couldn\u2019t stand for too long because wizards found out
+    their location and started their hunt, Lilith was left alone after they had killed
+    Bill on their escape.\r\nAfter a long time travelling aimlessly, the dragon found
+    a place to hide and there she discovered that she was pregnant. Lilith gave birth
+    to Mel, a half-human half-dragon girl who was expected to be more powerful than
+    anyone else due to her half blood as it is written on the Holy Grimoire.\r Once
+    again the wizards started chasing Lilith but this time her daughter was the target,
+    they wanted Mel\u2019s death as she could easily defeat all of them when she grew
+    up. Unfortunately the mother died in the attempt of saving her daughter's life.
+    Mel was left orphan and abandoned.\r\n"
 --- !u!1 &4142086347528285550
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,14 +115,14 @@ RectTransform:
   m_GameObject: {fileID: 4142086347528285550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.03418983, y: 0.03418983, z: 0.011659942}
+  m_LocalScale: {x: 0.1051895, y: 0.1051895, z: 0.0358899}
   m_Children: []
   m_Father: {fileID: 1679229334163543727}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -13.491943, y: -124.88689}
+  m_AnchoredPosition: {x: 0.00024414062, y: -69.29997}
   m_SizeDelta: {x: 13311, y: 6178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8033291162053753699
@@ -161,7 +162,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!1 &5641572247713734105
+--- !u!1 &5626335110356898819
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,9 +170,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7280568775572609655}
-  - component: {fileID: 3980436410564286968}
-  - component: {fileID: 6169998018706786723}
+  - component: {fileID: 4241647857884271178}
+  - component: {fileID: 1084835714520776763}
+  - component: {fileID: 8918383260755870754}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -179,40 +180,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7280568775572609655
+--- !u!224 &4241647857884271178
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5641572247713734105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 5626335110356898819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.32499838, y: 0.32499838, z: 0.32499838}
   m_Children: []
   m_Father: {fileID: 1679229334163543727}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000034332, y: -184}
-  m_SizeDelta: {x: 1987.8, y: 1196.2}
+  m_AnchoredPosition: {x: -11.812408, y: -60.862}
+  m_SizeDelta: {x: 1742, y: 1918}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3980436410564286968
+--- !u!222 &1084835714520776763
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5641572247713734105}
+  m_GameObject: {fileID: 5626335110356898819}
   m_CullTransparentMesh: 0
---- !u!114 &6169998018706786723
+--- !u!114 &8918383260755870754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5641572247713734105}
+  m_GameObject: {fileID: 5626335110356898819}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -226,7 +227,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 486f21365eb788f43aa75c1a40395e63, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff3271938dbb61d45972b560954f3278, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -459,7 +460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1679229334163543727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -467,11 +468,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456784563942239089}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.000005, y: 1.000005, z: 1.000005}
   m_Children:
-  - {fileID: 7280568775572609655}
+  - {fileID: 4241647857884271178}
   - {fileID: 5107411649485753979}
   - {fileID: 5213151020397930581}
   - {fileID: 7662508273794132236}
@@ -491,7 +492,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7456784563942239089}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

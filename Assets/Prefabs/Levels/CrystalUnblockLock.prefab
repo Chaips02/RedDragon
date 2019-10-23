@@ -65,7 +65,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 604defaa1ba316a43acfc98fb416c9b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: afa9a7259e437a749a73c27f06cd5904, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -191,7 +191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Thanks
+        m_MethodName: CrystalUnblockLock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -229,7 +229,7 @@ RectTransform:
   m_GameObject: {fileID: 3553493981706488896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.999998, y: 0.999998, z: 0.999998}
   m_Children:
   - {fileID: 707917749166226868}
   - {fileID: 8064320842997739236}
@@ -407,7 +407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks, see you soon!
+  m_Text: Get in
 --- !u!1 &7696368295218888648
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,5 +486,6 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wow!Great job! Who would have thought you could figure this out. To set
-    you free you only have to keep playing dead while you sing a song.
+  m_Text: Congratulations! Thanks to your audacty you've been awarded with a crystal.
+    Remember that those are crutial for the big challenge. Now you can go on into
+    Heron's house, beacuse that's what the gate was hiding behind...

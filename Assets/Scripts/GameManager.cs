@@ -611,6 +611,18 @@ public class GameManager : MonoBehaviour
             });
         });
     }
+    public void MountainL1janopotsanarmuntanya()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[62].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[62].SetActive(false);
+            _levels[23].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[23].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+
+            });
+        });
+    }
     //Lake3
     public void ContinueAdventure()
     {
@@ -620,13 +632,29 @@ public class GameManager : MonoBehaviour
         {
             if (crystals == 8)
             {
-                Debug.Log("YOU WIN!");
-                    }
+                LTDescr fadeOut = LeanTween.alphaCanvas(_levels[22].GetComponent<CanvasGroup>(), 0f, 2f);
+                fadeOut.setOnComplete(() => {
+                    _levels[22].SetActive(false);
+                    _levels[61].SetActive(true);
+                    LTDescr fadeIn = LeanTween.alphaCanvas(_levels[61].GetComponent<CanvasGroup>(), 1f, 2f);
+                    fadeIn.setOnComplete(() => {
+                        Debug.Log("You win");
+                    });
+                });
+            }
             else
-            {
-                Debug.Log("YOU LOSE!");
+                        {
+                        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[22].GetComponent<CanvasGroup>(), 0f, 2f);
+                        fadeOut.setOnComplete(() => {
+                            _levels[22].SetActive(false);
+                            _levels[60].SetActive(true);
+                            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[60].GetComponent<CanvasGroup>(), 1f, 2f);
+                            fadeIn.setOnComplete(() => {
+                                Debug.Log("You lose");
+                            });
+                        });
                     }
-        }
+                }
         else
         {
             LTDescr fadeOut = LeanTween.alphaCanvas(_levels[22].GetComponent<CanvasGroup>(), 0f, 2f);
@@ -636,9 +664,6 @@ public class GameManager : MonoBehaviour
                 LTDescr fadeIn = LeanTween.alphaCanvas(_levels[56].GetComponent<CanvasGroup>(), 1f, 2f);
                 fadeIn.setOnComplete(() => {
                     Debug.Log("Go to the mountain");
-
-
-
 
 
                 });
@@ -1212,8 +1237,8 @@ public void RunAway()
             LTDescr fadeOut = LeanTween.alphaCanvas(_levels[55].GetComponent<CanvasGroup>(), 0f, 2f);
             fadeOut.setOnComplete(() => {
                 _levels[55].SetActive(false);
-                _levels[1].SetActive(true);
-                LTDescr fadeIn = LeanTween.alphaCanvas(_levels[1].GetComponent<CanvasGroup>(), 1f, 2f);
+                _levels[62].SetActive(true);
+                LTDescr fadeIn = LeanTween.alphaCanvas(_levels[62].GetComponent<CanvasGroup>(), 1f, 2f);
                 fadeIn.setOnComplete(() => {
                     Debug.Log("Go to the lake");
                 });
@@ -1229,8 +1254,8 @@ public void RunAway()
             LTDescr fadeOut = LeanTween.alphaCanvas(_levels[55].GetComponent<CanvasGroup>(), 0f, 2f);
             fadeOut.setOnComplete(() => {
             _levels[55].SetActive(false);
-            _levels[0].SetActive(true);
-             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
+            _levels[61].SetActive(true);
+             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[61].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
                 Debug.Log("You win");
                 });
@@ -1241,8 +1266,8 @@ public void RunAway()
                 LTDescr fadeOut = LeanTween.alphaCanvas(_levels[55].GetComponent<CanvasGroup>(), 0f, 2f);
                 fadeOut.setOnComplete(() => {
                     _levels[55].SetActive(false);
-                    _levels[0].SetActive(true);
-                    LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
+                    _levels[60].SetActive(true);
+                    LTDescr fadeIn = LeanTween.alphaCanvas(_levels[60].GetComponent<CanvasGroup>(), 1f, 2f);
                     fadeIn.setOnComplete(() => {
                         Debug.Log("You lose");
                     });
@@ -1254,5 +1279,20 @@ public void RunAway()
 
     }
 
+    //Losing Scene
+    public void TryAgain()
+    {
+        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[60].GetComponent<CanvasGroup>(), 0f, 2f);
+        fadeOut.setOnComplete(() => {
+            _levels[60].SetActive(false);
+            _levels[0].SetActive(true);
+            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
+            fadeIn.setOnComplete(() => {
+                crystals=0;
+                ending=0;
+                Debug.Log("Crystal 0");
+            });
+        });
+    }
 
 }

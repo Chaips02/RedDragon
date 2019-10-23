@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 342614736410624983}
   - component: {fileID: 9152164182582585134}
   m_Layer: 5
-  m_Name: Boat
+  m_Name: GoTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Boat
+        m_MethodName: GoTop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -207,8 +207,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The only options to go across the water are swiming or well taking the boat
-    that is avandoned at the lakeshore.
+  m_Text: Now that you're in the mountain you can either decide if you want to find
+    a way to reach the top hill or go see what is around it.
 --- !u!1 &5323309419643275192
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 637649429304698963}
   - component: {fileID: 8009315272818449858}
   m_Layer: 5
-  m_Name: Swim
+  m_Name: ExploreSurroundings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Swim
+        m_MethodName: ExploreSourrandings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -416,7 +416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go swimming
+  m_Text: Explore surroundings
 --- !u!1 &8264137562905678152
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +441,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8264137562905678152}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999972, y: 0.9999972, z: 0.9999972}
   m_Children:
@@ -535,7 +535,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: bcb9b46d8ff1a0d409ddc41baa20f6e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 07c848e28968ea94a836ec5603cdcbcf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -622,7 +622,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Use the boat
+  m_Text: Go to the top hill
 --- !u!1 &8826580284591508029
 GameObject:
   m_ObjectHideFlags: 0

@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 7474636658152218213}
   - component: {fileID: 3279471612766710850}
   m_Layer: 5
-  m_Name: MountainL1
+  m_Name: MountainL1janopotsanarlake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +249,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: GoMountL1
+        m_MethodName: MountainL1janopotsanarlake
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6226415, g: 0.59033465, b: 0.59033465, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -695,5 +695,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Here comes your first decision. You have to choose which mission you want
-    to start with, after finish  it you''ll be able to complete the remaining option. '
+  m_Text: 'Now you only have left a single option to follow the mission. '

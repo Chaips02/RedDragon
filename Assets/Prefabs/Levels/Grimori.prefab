@@ -141,7 +141,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -152,7 +152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sure
+  m_Text: Yes, I am
 --- !u!1 &1201534161502580644
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,8 +187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.2, y: 364}
-  m_SizeDelta: {x: 1781.6, y: 256}
+  m_AnchoredPosition: {x: 17.5, y: 159.5}
+  m_SizeDelta: {x: 1553.2, y: 353.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6233162724865120130
 CanvasRenderer:
@@ -225,13 +225,14 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oh look! There's the grimori, so you want to take it?
+  m_Text: Well thought, who knows for how long it  has been sitting there! Oh look!
+    There's the Grimoire, are you sure that you want to take it?
 --- !u!1 &2035964461198605508
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,7 +353,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -401,7 +402,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -451, y: -318.256}
-  m_SizeDelta: {x: 217.3, y: 69.9}
+  m_SizeDelta: {x: 281.5, y: 112.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &861467353778426575
 CanvasRenderer:
@@ -530,7 +531,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 392, y: -318.25595}
-  m_SizeDelta: {x: 217.3, y: 69.9}
+  m_SizeDelta: {x: 281.5, y: 112.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4343293212991123723
 CanvasRenderer:
