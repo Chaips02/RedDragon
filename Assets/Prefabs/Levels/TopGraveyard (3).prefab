@@ -347,7 +347,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 604defaa1ba316a43acfc98fb416c9b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 53cec85ae6cddb44594877e6e469fa0f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -434,7 +434,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Apparently you've bump into an enormous old-fashoned pantheon. You have
+  m_Text: Apparently you've bumped into an enormous old-fashoned pantheon. You have
     no other option but to explore what's inside it.
 --- !u!1 &8478395139488055125
 GameObject:

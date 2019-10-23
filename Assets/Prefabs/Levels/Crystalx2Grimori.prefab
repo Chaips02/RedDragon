@@ -78,8 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Amazingly, you've reached out and found the Grimoire, therefore you're also
-    being compensated with a crystal. That doesn't claim a victory, so keep focused.
+  m_Text: 'Amazingly you''ve reached out and found the Grimoire, therefore you''re
+    also being compensated with a crystal. '
 --- !u!1 &5859684389989519028
 GameObject:
   m_ObjectHideFlags: 0

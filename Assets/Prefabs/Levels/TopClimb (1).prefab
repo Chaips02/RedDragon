@@ -139,7 +139,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 604defaa1ba316a43acfc98fb416c9b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 49fe577ec46e53e4fb346be06428e591, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -434,9 +434,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Your effort has paid off, finally you've reached the top. But this doesn't
-    look quite what you were looking for. This is a graveyard, not a refuge. However,
-    in front of you there's a structure similar to a house. What's your plan?
+  m_Text: Your effort has paid off, finally you've reached the top. Hawever, this
+    doesn't look like what you were looking for. This is a graveyard, not a refuge.
+    However, in front of you there's a structure similar to a house. What's your plan?
 --- !u!1 &4534780794556348372
 GameObject:
   m_ObjectHideFlags: 0

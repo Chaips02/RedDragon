@@ -98,7 +98,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3660456146606770814}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999972, y: 0.9999972, z: 0.9999972}
   m_Children:
@@ -204,7 +204,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bye Bye
+  m_Text: Continue
 --- !u!1 &4221700837168909016
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +270,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 604defaa1ba316a43acfc98fb416c9b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33b44cfe442adb74d9a81c6c1c32f9ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -357,8 +357,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Well as You were not able to answer correctly to this enigma I see you're
-    not wothy of the knowladge to get out of here. Bye, you're on your own.
+  m_Text: You found this charm. Keep it close, you'll need it later!
 --- !u!1 &6403235545104183421
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,7 +371,7 @@ GameObject:
   - component: {fileID: 2546809159563680947}
   - component: {fileID: 4178439285619576276}
   m_Layer: 5
-  m_Name: SayBye
+  m_Name: Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -476,7 +475,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: SayBye
+        m_MethodName: EndMountain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

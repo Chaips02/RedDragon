@@ -9,8 +9,9 @@ public class GameManager : MonoBehaviour
     int crystals = 0;
     int ending = 0;
 
-    //First Scene
-    public void GoAhead3()
+   
+//First Scene
+public void GoAhead3()
     {
         LTDescr fadeOut = LeanTween.alphaCanvas(_levels[58].GetComponent<CanvasGroup>(), 0f, 2f);
         fadeOut.setOnComplete(() => {
@@ -18,7 +19,7 @@ public class GameManager : MonoBehaviour
             _levels[24].SetActive(true);
             LTDescr fadeIn = LeanTween.alphaCanvas(_levels[24].GetComponent<CanvasGroup>(), 1f, 2f);
             fadeIn.setOnComplete(() => {
-
+             
                 // Añadir aquí instrucciones que queremos que se ejecuten una vez se ha terminado de hacer el fade in (si las hay)
 
             });
@@ -1279,20 +1280,6 @@ public void RunAway()
 
     }
 
-    //Losing Scene
-    public void TryAgain()
-    {
-        LTDescr fadeOut = LeanTween.alphaCanvas(_levels[60].GetComponent<CanvasGroup>(), 0f, 2f);
-        fadeOut.setOnComplete(() => {
-            _levels[60].SetActive(false);
-            _levels[0].SetActive(true);
-            LTDescr fadeIn = LeanTween.alphaCanvas(_levels[0].GetComponent<CanvasGroup>(), 1f, 2f);
-            fadeIn.setOnComplete(() => {
-                crystals=0;
-                ending=0;
-                Debug.Log("Crystal 0");
-            });
-        });
-    }
+    
 
 }
